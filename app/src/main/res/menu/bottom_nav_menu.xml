@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home_tab"
+        android:icon="@drawable/home_logo"
+        android:title="Home" />
+    <item
+        android:id="@+id/Flight_tab"
+        android:icon="@drawable/flight_logo"
+        android:title="Flight" />
+
+    <item
+        android:id="@+id/Train_tab"
+        android:icon="@drawable/train_logo"
+        android:title="Train" />
+
+    <item
+        android:id="@+id/Settings_tab"
+        android:icon="@drawable/settings_logo"
+        android:title="Settings" />
+</menu>

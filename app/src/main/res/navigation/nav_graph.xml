@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/Home_Fragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/Home_Fragment"
+        android:name="com.example.pinnacle.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/train_Fragment"
+        android:name="com.example.pinnacle.fragments.TrainFragment"
+        android:label="fragment_train"
+        tools:layout="@layout/fragment_train" />
+    <fragment
+        android:id="@+id/Flight_Fragment"
+        android:name="com.example.pinnacle.fragments.FlightFragment"
+        android:label="fragment_flight"
+        tools:layout="@layout/fragment_flight" />
+    <fragment
+        android:id="@+id/Settings_Fragment"
+        android:name="com.example.pinnacle.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
